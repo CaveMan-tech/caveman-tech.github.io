@@ -8,7 +8,21 @@
 	<meta name="robot" content="nofollow">
 	<style type="text/css">
 body{
+	position: fixed;
+	overflow: auto;
+	min-height: 100vh;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 2000;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: inherit;
 	background-color: #add8e6;
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5;
 }
 section{
 	padding-left: 400px;
@@ -17,6 +31,7 @@ ul{
 	list-style: none;
 	display: flex;
 	padding-left: 160px;
+
 }
 li{
 
@@ -28,15 +43,22 @@ li{
 	font-size: 24px;
 }
 fieldset{
-	border-radius: 10px;
-	margin-right: 500px;
+	padding-bottom: 3rem;
+	padding: 2.5rem;
+	width: 91.666667%;
+	max-width: 28rem;
+	border-bottom-right-radius: 1.25rem;
+	border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
 	background-color: white;
-	padding-left: 30px;
+	box-sizing: inherit;
+	display: block;
 	border: 0px;
+
 }
 h3{
 	text-align: center;
-	color: blue;
+	color: #083e9e;
 	margin-top: 40px;
 } 
 .q1{
@@ -51,12 +73,23 @@ h3{
 	font-weight: bold;
 }
 input{
+	position: relative;
+	flex-direction: column;
+	display: flex;
+	box-sizing: inherit;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	outline: 0;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #1a202c;
 	margin-top: 5px;
-	margin-bottom: 40px;
+	margin-bottom: 2rem;
 	width: 350px;
-	background-color: lightgray;
+	background-color: #edf2f7;
+	
 	border: 0px;
-	border-radius: 5px;
+	border-radius: .25rem;
 	height: 40px;
 	padding-left: 10px;
 }
@@ -71,12 +104,14 @@ select{
 	padding-left: 10px;
 }
 button{
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5;
 	height: 40px;
 	width: 360px;
-	background-color: blue;
+	background-color: #083e93;
 	color: white;
 	border: 0px;
-	border-radius: 5px, 5px, 5px, 0px;
+
 	margin-bottom: 40px;
 }
 	</style>
@@ -90,7 +125,7 @@ button{
 	<form action="" method="post">
 		<fieldset>
 			<h3> Create a Secure Account </h3>
-			<h4 class="q1"> Welcome to the future of Savings and Investment </h4>
+			<h4 class="q1"> Welcome to the future of Savings and Investments </h4>
 			<div>
 				<label for="fn1"> Full Name </label></br>
 				<input type="text" name="fn1" placeholder="Full Name">
