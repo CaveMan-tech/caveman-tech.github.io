@@ -8,7 +8,6 @@
 	<meta name="robot" content="nofollow">
 	<style type="text/css">
 body{
-	position: fixed;
 	overflow: auto;
 	min-height: 100vh;
 	width: 100%;
@@ -44,9 +43,11 @@ li{
 }
 fieldset{
 	padding-bottom: 3rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	padding: 2.5rem;
 	width: 91.666667%;
-	max-width: 28rem;
+	max-width: 25rem;
 	border-bottom-right-radius: 1.25rem;
 	border-top-left-radius: 1.25rem;
     border-top-right-radius: 1.25rem;
@@ -54,6 +55,7 @@ fieldset{
 	box-sizing: inherit;
 	display: block;
 	border: 0px;
+	margin-right: 500px
 
 }
 h3{
@@ -85,7 +87,7 @@ input{
     color: #1a202c;
 	margin-top: 5px;
 	margin-bottom: 2rem;
-	width: 350px;
+	width: 24rem;
 	background-color: #edf2f7;
 	
 	border: 0px;
@@ -96,30 +98,37 @@ input{
 select{
 	margin-top: 5px;
 	margin-bottom: 40px;
-	width: 360px;
-	background-color: lightgray;
+	width: 24rem;
+	background-color: #edf2f7;
 	border: 0px;
 	border-radius: 5px;
 	height: 40px;
-	padding-left: 10px;
+	box-sizing: inherit;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 button{
 	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
     line-height: 1.5;
 	height: 40px;
-	width: 360px;
+	box-sizing: inherit;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 24rem;
 	background-color: #083e93;
 	color: white;
 	border: 0px;
-
-	margin-bottom: 40px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	margin-bottom: 2rem;
 }
 	</style>
 </head>
 <body>
 	<section>
 	<ul>
-		<li> This </li>
+		<li> Logo </li>
 		<li class="m1"> Piggyvest </li>
 	</ul>
 	<form action="" method="post">
