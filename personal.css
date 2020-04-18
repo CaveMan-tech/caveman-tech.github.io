@@ -1,0 +1,122 @@
+body{
+	box-sizing: inherit;
+	align-items: center;
+	background: #FFDDAB;
+}
+header{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	margin: 30px 0px;
+	margin-left: 60px;
+}
+ul{
+	list-style: none;
+}
+li{
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+h1 {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+}
+h2 {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+}
+h3 {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+p {
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+}
+.Up1{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px;
+	margin-left: 190px;
+	margin-right: 190px;
+}
+.Up2, .Up3{
+	flex-wrap: wrap;
+}
+#Talk1{
+	height: 170px;
+	padding-bottom: 7.5rem;
+}
+#io1{
+	margin-top: 30px;
+	margin-left: 120px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+}
+#io2{
+	margin-top: 30px;
+}
+span{
+	font-weight: bold;
+}
+input {
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.25);
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	height: 46px;
+	width: 640px;
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+}
+button {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background: #000000;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.25);
+	border-radius: 5px;
+	width: 75px;
+	height: 46px;
+	font-family: Montserrat, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: white;
+	margin-left: 565px;
+}
+fieldset{
+	display: flex;
+	justify-content: space-between;
+	width: 640px;
+	border: 0px;
+	margin: 70px 0px;
+	margin-left: 400px;
+	margin-right: 400px;
+	flex-wrap: wrap;
+}
