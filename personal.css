@@ -122,11 +122,10 @@ button {
 }
 fieldset{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	width: 640px;
 	border: 0px;
-	margin: 30px 0px;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	flex-wrap: wrap;
 }
