@@ -6,7 +6,7 @@ html{
 }
 body{
 	/*box-sizing: inherit;*/
-	align-items: center;
+	margin: auto;
 	background: #FFDDAB;
 }
 header{
@@ -58,13 +58,17 @@ p {
 }
 .Up1{
 	display: flex;
-	justify-content: space-between;
+	justify-content:center;
 	margin: 40px 0px;
-	margin-left: 190px;
-	margin-right: 190px;
+	margin: auto;
+	align-content: center;
+
 }
 .Up2, .Up3{
 	flex-wrap: wrap;
+}
+.Up2{
+	margin-right: 60px;
 }
 #Talk1{
 	height: 170px;
@@ -122,7 +126,7 @@ fieldset{
 	width: 640px;
 	border: 0px;
 	margin: 70px 0px;
-	margin-left: 300px;
-	margin-right: 400px;
+	margin-left: auto;
+	margin-right: auto;
 	flex-wrap: wrap;
 }
