@@ -101,7 +101,7 @@ function randomQuestion(){
     }
     else{
        if (myArray.length>0){
-        for (let i = 0; i < myarray.length; i++) {
+        for (let i=0; i<myArray.length; i++) {
           if (myArray[i]==randomNumber){
               hitDuplicate=1;
               break;
